@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+     <h1><u>Guessing Game</u></h1>
+        <h2>Select the number from 1 to 100!!!</h2>
+      <input type="number" placeholder="Enter the number" id="Num">
+      <h3 id="res" style="color: white;">Wait for the result!!!</h3>
+      <h3 style="margin-bottom:-2%;">Tries:</h3>
+      <h3 id="tries">0</h3>
+      <div id="btn">
+        <input type="submit" value="check" onclick="findnumber()">
+        <input type="submit" value="reset" onclick="window.location.reload()">
+      </div>
+    </div>
+    <script src="design.js"></script>
+</body>
+</html>
